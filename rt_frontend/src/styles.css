@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+button, input[type="submit"] {
+    background-color: #444;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    position:absolute;
+}
+textarea{
+    width: fit-content;
+    height: fit-content;
+    background-color: #1e1e1e;
+    border-color: #1e1e1e;
+    padding:0cm;
+}
